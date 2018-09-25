@@ -839,7 +839,7 @@ MonoBehaviour:
   m_MidAirPositioner: {fileID: 1076319839}
   m_PlaneAugmentation: {fileID: 2037963495}
   m_MidAirAugmentation: {fileID: 1215276735}
-  m_PlacementAugmentation: {fileID: 0}
+  m_PlacementAugmentation: {fileID: 1092742125}
 --- !u!1 &393628022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1873,12 +1873,22 @@ Prefab:
       propertyPath: m_Name
       value: 'converse_obj '
       objectReference: {fileID: 0}
+    - target: {fileID: 114995126594301130, guid: 14cae24eb902b8d42b02b1b0fc4e6882,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14cae24eb902b8d42b02b1b0fc4e6882, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &1092742124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4414181836631738, guid: 14cae24eb902b8d42b02b1b0fc4e6882,
+    type: 2}
+  m_PrefabInternal: {fileID: 1092742123}
+--- !u!1 &1092742125 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1628239006516430, guid: 14cae24eb902b8d42b02b1b0fc4e6882,
     type: 2}
   m_PrefabInternal: {fileID: 1092742123}
 --- !u!1 &1215276735 stripped
