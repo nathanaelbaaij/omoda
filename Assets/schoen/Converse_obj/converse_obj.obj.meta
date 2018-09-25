@@ -84,6 +84,44 @@ ModelImporter:
     2100000: lambert2SG
     2100002: lambert3SG
     2100004: blinn1SG
+    2100006: lConv_Sneakers_conv_tongueMat
+    2100008: lConv_Sneakers_converseMat
+    2100010: lConv_Sneakers_lacesMat
+    2100012: lConv_Sneakers_rivet10Mat
+    2100014: lConv_Sneakers_rivet11Mat
+    2100016: lConv_Sneakers_rivet12Mat
+    2100018: lConv_Sneakers_rivet13Mat
+    2100020: lConv_Sneakers_rivet14Mat
+    2100022: lConv_Sneakers_rivet15Mat
+    2100024: lConv_Sneakers_rivet16Mat
+    2100026: lConv_Sneakers_rivet2Mat
+    2100028: lConv_Sneakers_rivet3Mat
+    2100030: lConv_Sneakers_rivet4Mat
+    2100032: lConv_Sneakers_rivet5Mat
+    2100034: lConv_Sneakers_rivet6Mat
+    2100036: lConv_Sneakers_rivet7Mat
+    2100038: lConv_Sneakers_rivet8Mat
+    2100040: lConv_Sneakers_rivet9Mat
+    2100042: rivet1_lConv_SneakersMat
+    2100044: Sneakers_rConv_conv_tongue1Mat
+    2100046: Sneakers_rConv_converse1Mat
+    2100048: Sneakers_rConv_laces1Mat
+    2100050: Sneakers_rConv_rivet18Mat
+    2100052: Sneakers_rConv_rivet19Mat
+    2100054: Sneakers_rConv_rivet20Mat
+    2100056: Sneakers_rConv_rivet21Mat
+    2100058: Sneakers_rConv_rivet22Mat
+    2100060: Sneakers_rConv_rivet23Mat
+    2100062: Sneakers_rConv_rivet24Mat
+    2100064: Sneakers_rConv_rivet25Mat
+    2100066: Sneakers_rConv_rivet26Mat
+    2100068: Sneakers_rConv_rivet27Mat
+    2100070: Sneakers_rConv_rivet28Mat
+    2100072: Sneakers_rConv_rivet29Mat
+    2100074: Sneakers_rConv_rivet30Mat
+    2100076: Sneakers_rConv_rivet31Mat
+    2100078: Sneakers_rConv_rivet32Mat
+    2100080: Sneakers_rivet17_rConvMat
     2300000: lConv_Sneakers_conv_tongue
     2300002: lConv_Sneakers_converse
     2300004: lConv_Sneakers_laces
