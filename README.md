@@ -1,2 +1,0 @@
-# omoda
-Omoda AR App
