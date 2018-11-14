@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 7a9503f017c657441b55c7e230024357
+  productGUID: 95aaa65faa5038b499ebb643aed681c6
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: AndroidAR
+  productName: Omoda Shoe Tracking
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -151,8 +151,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.vuforia.samples.VuforiaSamples
-    iOS: com.vuforia.samples.VuforiaSamples
+    Android: com.vuforia.ImageTracking
+    iOS: com.vuforia.unity.VuforiaSamples
   buildNumber:
     iOS: 0
   AndroidBundleVersionCode: 1
@@ -238,7 +238,7 @@ PlayerSettings:
   iOSRequireARKit: 0
   appleEnableProMotion: 0
   vulkanEditorSupport: 0
-  clonedFromGUID: 8c80980ace4b3d94e8817fc83a6b1db1
+  clonedFromGUID: b0429e76bd1f04cfeb3b75c8f166e70a
   templatePackageId: 
   templateDefaultScene: 
   AndroidTargetArchitectures: 1
@@ -369,6 +369,8 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Enabled: 1
   - m_BuildTarget: iOS
+    m_Enabled: 1
+  - m_BuildTarget: Standalone
     m_Enabled: 1
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -696,7 +698,7 @@ PlayerSettings:
   platformCapabilities:
     WindowsStoreApps:
       InternetClient: True
-      Microphone: True
+      Microphone: False
       WebCam: True
   metroFTAName: 
   metroFTAFileTypes: []
@@ -745,9 +747,9 @@ PlayerSettings:
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 27dad799-8788-4dd1-9cb9-01d85969a5b0
-  projectName: AndroidAR
-  organizationId: gijs-van-den-abeele
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
