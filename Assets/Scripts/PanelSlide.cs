@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PanelSlide : MonoBehaviour {
-    
+public class PanelSlide : MonoBehaviour
+{
+
     public GameObject Panel;
+    Animator animator;
+
+    private void Start()
+    {
+        animator = Panel.GetComponent<Animator>();
+    }
 
     public void SlidePanel()
     {
-        if (Panel != null)
-        {
-            Animator animator = Panel.GetComponent<Animator>();
+        Debug.Log("Test");
+        bool isOpen = animator.GetBool("Open");
 
-            if(animator != null)
-            {
-                bool isOpen = animator.GetBool("open");
-
-                animator.SetBool("open", !isOpen);
-            }
-        }
+        animator.SetBool("Open", !isOpen);
     }
 }
