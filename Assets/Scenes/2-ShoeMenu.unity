@@ -410,8 +410,8 @@ MonoBehaviour:
         m_MethodName: SelectShoe
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 100000, guid: ead0ffc7ba3b05147ace4b240bd4405b,
-            type: 3}
+          m_ObjectArgument: {fileID: 1004351405508280, guid: aee693ef3b307974c913f82d1043cb48,
+            type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -885,7 +885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c81a5ca37e44fd8429545779940aca5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chosenShoe: {fileID: 0}
+  selectedShoe: {fileID: 0}
 --- !u!4 &1199913584
 Transform:
   m_ObjectHideFlags: 0
