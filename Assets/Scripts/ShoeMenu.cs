@@ -53,6 +53,5 @@ public class ShoeMenu : MonoBehaviour
         GameObject target = GameObject.FindGameObjectWithTag("GroundPlaneTarget");
 
         GameObject placedShoe = Instantiate(selectedShoe, target.transform);
-
     }
 }

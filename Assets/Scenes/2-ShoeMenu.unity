@@ -1092,7 +1092,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: X
+  m_Text: SCHOEN
 --- !u!222 &1208556893
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1229,7 +1229,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: X
+  m_Text: SCHOEN
 --- !u!222 &1511469159
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1392,7 +1392,7 @@ MonoBehaviour:
         m_MethodName: SelectShoe
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1004351405508280, guid: aee693ef3b307974c913f82d1043cb48,
+          m_ObjectArgument: {fileID: 1987297658884516, guid: 79e01616afe10124598ebf3cb10a99f2,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
@@ -1602,7 +1602,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CONVERSE
+  m_Text: VANS
 --- !u!222 &1968033233
 CanvasRenderer:
   m_ObjectHideFlags: 0
