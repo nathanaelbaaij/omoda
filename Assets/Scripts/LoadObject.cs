@@ -14,23 +14,38 @@ public class LoadObject : MonoBehaviour
     {
     }
 
+    private bool isTrackingMarker(string imageTargetName)
+    {
+        var imageTarget = GameObject.Find(imageTargetName);
+        var trackable = imageTarget.GetComponent<TrackableBehaviour>();
+        var status = trackable.CurrentStatus;
+        return status == TrackableBehaviour.Status.TRACKED;
+    }
+
     public void CreateObject()
     {
-        foreach (Transform child in parent_links)
+        if (isTrackingMarker(parent_links.name))
         {
-            GameObject.Destroy(child.gameObject);
+            foreach (Transform child in parent_links)
+            {
+                GameObject.Destroy(child.gameObject);
+            }
+
+            // instantiate the object links
+            // GameObject go_links = (GameObject)Instantiate(equipPrefab_links, position, Quaternion.identity);
+            Instantiate(equipPrefab_links, parent_links);
+
         }
-        foreach (Transform child in parent_rechts)
+        if (isTrackingMarker(parent_rechts.name))
         {
-            GameObject.Destroy(child.gameObject);
+            foreach (Transform child in parent_rechts)
+            {
+                GameObject.Destroy(child.gameObject);
+            }
+
+            // instantiate the object rechts
+            // GameObject go_rechts = (GameObject)Instantiate(equipPrefab_rechts, position, Quaternion.identity);
+            Instantiate(equipPrefab_rechts, parent_rechts);
         }
-
-        // instantiate the object links
-        // GameObject go_links = (GameObject)Instantiate(equipPrefab_links, position, Quaternion.identity);
-        Instantiate(equipPrefab_links, parent_links);
-
-        // instantiate the object rechts
-        // GameObject go_rechts = (GameObject)Instantiate(equipPrefab_rechts, position, Quaternion.identity);
-        Instantiate(equipPrefab_rechts, parent_rechts);
     }
 }
