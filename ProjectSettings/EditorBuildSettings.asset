@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3-GroundPlane.unity
     guid: 3151807591542436f9ddfbf021a1545d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/ImageTracking.unity
-    guid: fa05b4f596c584dc79960294a1b601cc
+    path: Assets/Scenes/2-ShoeMenu.unity
+    guid: c2cf6abde1ed4374ebe2cd3a87d11c82
   m_configObjects: {}
