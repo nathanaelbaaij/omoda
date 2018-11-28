@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 372919169}
   - component: {fileID: 372919168}
   - component: {fileID: 372919167}
+  - component: {fileID: 372919170}
   m_Layer: 5
   m_Name: Schoen3
   m_TagString: Untagged
@@ -190,12 +191,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1199913583}
-        m_MethodName: 
-        m_Mode: 1
+        m_MethodName: SelectShoe
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1004351405508280, guid: aee693ef3b307974c913f82d1043cb48,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 372919170}
+          m_ObjectArgumentAssemblyTypeName: ShoeHolder, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -237,6 +237,20 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 372919165}
   m_CullTransparentMesh: 0
+--- !u!114 &372919170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 372919165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564bf0dd39736ff44bbc0e014c37418d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shoeGroundTracking: {fileID: 100032, guid: ef6dbf45800534d43a4654f65262840f, type: 3}
+  shoeLeft: {fileID: 1108907665458214, guid: 31815da351aa97447a90f058a5068da9, type: 2}
+  shoeRight: {fileID: 1441960834873018, guid: 2adcaf98fb296a840b550c94d3212312, type: 2}
 --- !u!1 &417442907
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,7 +906,7 @@ GameObject:
   - component: {fileID: 1199913583}
   m_Layer: 0
   m_Name: ShoeManager
-  m_TagString: Untagged
+  m_TagString: ShoeManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -991,7 +1005,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SCHOEN
+  m_Text: WAGRAM
 --- !u!222 &1208556893
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1256,8 +1270,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: BackToMenu
+      - m_Target: {fileID: 1199913583}
+        m_MethodName: BackButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1372,7 +1386,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SCHOEN
+  m_Text: '?'
 --- !u!222 &1511469159
 CanvasRenderer:
   m_ObjectHideFlags: 0

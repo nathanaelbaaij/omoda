@@ -7,6 +7,7 @@ TagManager:
   - GroundPlaneTarget
   - TargetLeft
   - TargetRight
+  - ShoeManager
   layers:
   - Default
   - TransparentFX
