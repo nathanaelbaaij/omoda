@@ -8,21 +8,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AT54HWf/////AAABma8LAtOPzUzbraq6PxwT3UIL5N74TzxMlVsrpKFAkfng3hGRs7znwUOttf6edymt69l/y6FjiWp9QkL2GHEGF7Bj2HmZCb5dvP8YacaqPlrN7favZShmCY2aOrHN05XaL/2vqSa9/gsYIM1k1srSKGw70KTp1QwEpEQu25NtyDQdLZCZB8tqsjvN46AW6DBFogyB6s5gq9/FEcleUBNHO+2hYLZ44uWsQCNJDVLdJJJUXQUMANGlgxWVDyR4bqhnoB4Lkvb+GKRQSc3pbcXYXkgNpcRqeufpZOla8fF82ImhHY1PmD1Vc3hmdIp9N2/5gazCyJOccwQmn7fyEPsvDbJ9RB65xdaMs0vXIwIquJmb
-    ufoLicenseKey: QVZxYmRCLy8vLy8vQUFBQUtOeEV6Lzc2cFVNQXVsRlp0STcvUVEwMlFFVXM4K05SMC9RR28wUUVKVFQ3aHdySk1Zb0JpcWdlUE5UakViQmpsUWsyTEx3dHZPTi9mcHJzaUhuSmREZkhWbVFMNTlnRkRpZW1YR2hvR3ZaWnFjYXZOYndhZmZVTytjekZHTWdLUW1VaXNSZVBGS2R3NW9XNkd2YitreEt0aHE5b3dVYTR2SmljbzVVVDljeFo3N1dudFAyVG5Rb2VRWHV5Ym1FSkFXVE9ieFpyc1h2MGZiWlRtbW9RUFNINUd0Q3ZRbjRtRmlVMDdMSkd6RjNHQU5sTTh1UVJjaTRoWkVxakVITmRYY3FtVlBTWmtoVXlzcmlYWDFkSExHT3gzUVdDUkdDYVY4ZkQ1bk9CaDNKZlVzSG9lM2lYempIWmZ6d24yTHlJaFRyQzRHQUJoRGNTV2pRSElNb0NpNnN2NWZhOENpdjRicnRrYm5TditJbWQ=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVJBVTJVTC8vLy8vQUFBQUtPS3kwVmlKdEVyRmwxdTUxd2EwSlJLQ0h4Wis3VmlwT0tKS29IYXhaaWZnaUN5NHkyQWNhSGFKYy9CVVlQd2J0YUdiMzc5c3NWN1d1UzJ5eXArSTJ1MWRjNDBVOFVGK0lLbmMwRHdUWkV6dmc4OXZwRG51QS9PZ29aWnNadDkzWkFSUi9NRHYzRU4zK1RNTmw1Yks1eFU4eWw1MFpZWGJvTDhSbTgrRmFiU0VWWW44TWdPWWZmUjFxemx1b1k3ZGMxRGh0bW50YlhJdENOMW84Q2FUQlk0dHNBNU1kUWtJVGIrek5ZWW1OQTJHc3NDaGo3OG1DTUx2TU51d09wenpldGdrenh4Q1VueDBnWlBVK1pnUFNoM2o1N0FLWmEyMmJuRFVMTmsrVHBESkZXNzR6dkliZGJFUXZlMkN2OTNWbWJKOFE4TXE1NmJYVUl6VDJOLzJtOGg1UGp2UjhobmxxdEpjZUN0VDR2UVo=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 4
-    maxSimultaneousObjectTargets: 2
+    maxSimultaneousImageTargets: 1
+    maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
-    version: 7.5.26
-    eulaAcceptedVersions: '{"Values":["7.2","7.5"]}'
+    version: 1.0.0
+    eulaAccepted: 0
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
