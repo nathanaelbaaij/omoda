@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ShoeMenu : MonoBehaviour
 {
-    [SerializeField] private GameObject selectedShoe;
-
+    public GameObject shoeGroundTracking;
+    public GameObject shoeLeft;
+    public GameObject shoeRight;
 
     // Use this for initialization
     void Start()
@@ -30,6 +31,11 @@ public class ShoeMenu : MonoBehaviour
         {
             PlaceShoeGroundPlane();
         }
+
+        if (scene.name == "ImageTracking")
+        {
+            PlaceLeftRightShoes();
+        }
     }
 
     // Update is called once per frame
@@ -38,13 +44,13 @@ public class ShoeMenu : MonoBehaviour
 
     }
 
-    public void SelectShoe(GameObject shoe)
+    public void SelectShoe(ShoeHolder shoes)
     {
-        selectedShoe = shoe;
-        if (selectedShoe != null)
-        {
-            SceneManager.LoadScene("1-Menu");
-        }
+        shoeGroundTracking = shoes.shoeGroundTracking;
+        shoeLeft = shoes.shoeLeft;
+        shoeRight = shoes.shoeRight;
+
+        SceneManager.LoadScene("1-Menu");
     }
 
     // Place the shoe on correct position for groundplane tracking
@@ -52,6 +58,15 @@ public class ShoeMenu : MonoBehaviour
     {
         GameObject target = GameObject.FindGameObjectWithTag("GroundPlaneTarget");
 
-        GameObject placedShoe = Instantiate(selectedShoe, target.transform);
+        GameObject placedShoe = Instantiate(shoeGroundTracking, target.transform);
+    }
+
+    void PlaceLeftRightShoes()
+    {
+        GameObject targetLeft = GameObject.FindGameObjectWithTag("TargetLeft");
+        GameObject targetRight = GameObject.FindGameObjectWithTag("TargetRight");
+
+        GameObject placedShoeLeft = Instantiate(shoeLeft, targetLeft.transform);
+        GameObject placedShoeRight = Instantiate(shoeRight, targetRight.transform);
     }
 }

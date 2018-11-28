@@ -190,8 +190,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1199913583}
-        m_MethodName: SelectShoe
-        m_Mode: 2
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 1004351405508280, guid: aee693ef3b307974c913f82d1043cb48,
             type: 2}
@@ -314,8 +314,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1199913583}
-        m_MethodName: SelectShoe
-        m_Mode: 2
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 1004351405508280, guid: aee693ef3b307974c913f82d1043cb48,
             type: 2}
@@ -753,6 +753,7 @@ GameObject:
   - component: {fileID: 738063137}
   - component: {fileID: 738063136}
   - component: {fileID: 738063138}
+  - component: {fileID: 738063139}
   m_Layer: 5
   m_Name: Schoen1
   m_TagString: Untagged
@@ -856,9 +857,8 @@ MonoBehaviour:
         m_MethodName: SelectShoe
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1004351405508280, guid: aee693ef3b307974c913f82d1043cb48,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 738063139}
+          m_ObjectArgumentAssemblyTypeName: ShoeHolder, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -866,6 +866,21 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &738063139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 738063134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564bf0dd39736ff44bbc0e014c37418d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shoeGroundTracking: {fileID: 1004351405508280, guid: aee693ef3b307974c913f82d1043cb48,
+    type: 2}
+  shoeLeft: {fileID: 1683070137572866, guid: 7e31b58fd36bf524bb2d74d44db64414, type: 2}
+  shoeRight: {fileID: 1813810878067546, guid: bbd848add1de63b489fcb7a7a72fa0d3, type: 2}
 --- !u!1 &1199913582
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,7 +908,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c81a5ca37e44fd8429545779940aca5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedShoe: {fileID: 0}
+  shoeGroundTracking: {fileID: 0}
+  shoeLeft: {fileID: 0}
+  shoeRight: {fileID: 0}
 --- !u!4 &1199913584
 Transform:
   m_ObjectHideFlags: 0
@@ -1449,6 +1466,7 @@ GameObject:
   - component: {fileID: 1624974412}
   - component: {fileID: 1624974411}
   - component: {fileID: 1624974410}
+  - component: {fileID: 1624974413}
   m_Layer: 5
   m_Name: Schoen2
   m_TagString: Untagged
@@ -1518,9 +1536,8 @@ MonoBehaviour:
         m_MethodName: SelectShoe
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1987297658884516, guid: 79e01616afe10124598ebf3cb10a99f2,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 1624974413}
+          m_ObjectArgumentAssemblyTypeName: ShoeHolder, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1562,6 +1579,21 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1624974408}
   m_CullTransparentMesh: 0
+--- !u!114 &1624974413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1624974408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564bf0dd39736ff44bbc0e014c37418d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shoeGroundTracking: {fileID: 1987297658884516, guid: 79e01616afe10124598ebf3cb10a99f2,
+    type: 2}
+  shoeLeft: {fileID: 1854582026146054, guid: 6c179f64d875b524097358d02f8bcf04, type: 2}
+  shoeRight: {fileID: 1581409593636308, guid: 88dbc5e1700107b498772ebce320bb72, type: 2}
 --- !u!1 &1675289289
 GameObject:
   m_ObjectHideFlags: 0
