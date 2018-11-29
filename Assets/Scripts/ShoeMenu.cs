@@ -68,6 +68,9 @@ public class ShoeMenu : MonoBehaviour
 
         GameObject placedShoeLeft = Instantiate(shoeLeft, targetLeft.transform);
         GameObject placedShoeRight = Instantiate(shoeRight, targetRight.transform);
+
+        Debug.Log("TEST");
+        Debug.Log(placedShoeLeft.name);
     }
 
     public void BackButton()
