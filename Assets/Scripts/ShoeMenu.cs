@@ -8,6 +8,8 @@ public class ShoeMenu : MonoBehaviour
     public GameObject shoeGroundTracking;
     public GameObject shoeLeft;
     public GameObject shoeRight;
+    public Renderer[] shoeLChildren;
+    public Renderer[] shoeRChildren;
 
     // Use this for initialization
     void Start()
@@ -69,8 +71,24 @@ public class ShoeMenu : MonoBehaviour
         GameObject placedShoeLeft = Instantiate(shoeLeft, targetLeft.transform);
         GameObject placedShoeRight = Instantiate(shoeRight, targetRight.transform);
 
-        Debug.Log("TEST");
-        Debug.Log(placedShoeLeft.name);
+        shoeLChildren = placedShoeLeft.GetComponentsInChildren<Renderer>();
+        shoeRChildren = placedShoeRight.GetComponentsInChildren<Renderer>();
+
+        //ChangeColour();
+    }
+
+    public void ChangeColour(Color color) {
+        foreach(Renderer child in shoeLChildren) {
+            if(child.tag == "ColourChange") {
+                child.material.color = color;
+            }
+        }
+
+        foreach(Renderer child in shoeRChildren) {
+            if(child.tag == "ColourChange") {
+                child.material.color = color;
+            }
+        }
     }
 
     public void BackButton()
