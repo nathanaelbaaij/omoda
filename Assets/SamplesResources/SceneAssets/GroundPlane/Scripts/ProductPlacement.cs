@@ -20,7 +20,7 @@ public class ProductPlacement : MonoBehaviour
     public Transform Floor;
 
     [Header("Placement Augmentation Size Range")]
-    [Range(0.1f, 2.0f)]
+    [Range(0.001f, 10.0f)]
     public float ProductSize = 0.65f;
     #endregion // PUBLIC_MEMBERS
 
@@ -72,7 +72,7 @@ public class ProductPlacement : MonoBehaviour
 
         mainCamera = Camera.main;
 
-        m_PlacementAugmentationScale = VuforiaRuntimeUtilities.IsPlayMode() ? 0.1f : ProductSize;
+        m_PlacementAugmentationScale = VuforiaRuntimeUtilities.IsPlayMode() ? 0.001f : ProductSize;
 
         ProductScaleVector =
             new Vector3(m_PlacementAugmentationScale,
