@@ -8,6 +8,8 @@ TagManager:
   - TargetLeft
   - TargetRight
   - ShoeManager
+  - Floor
+  - PlaneManager
   layers:
   - Default
   - TransparentFX

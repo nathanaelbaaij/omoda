@@ -32,6 +32,7 @@ public class LoadObject : MonoBehaviour
             }
 
             // instantiate the object links
+            // GameObject go_links = (GameObject)Instantiate(equipPrefab_links, position, Quaternion.identity);
             Instantiate(equipPrefab_links, parent_links);
 
         }
@@ -43,6 +44,7 @@ public class LoadObject : MonoBehaviour
             }
 
             // instantiate the object rechts
+            // GameObject go_rechts = (GameObject)Instantiate(equipPrefab_rechts, position, Quaternion.identity);
             Instantiate(equipPrefab_rechts, parent_rechts);
         }
     }
