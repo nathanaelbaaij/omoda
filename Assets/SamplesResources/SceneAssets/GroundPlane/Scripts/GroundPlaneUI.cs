@@ -26,7 +26,7 @@ public class GroundPlaneUI : MonoBehaviour
 
 
     #region PRIVATE_MEMBERS
-    const string TITLE_PLACEMENT = "Product Placement";
+    const string TITLE_PLACEMENT = "Product Plaatsen";
     const string TITLE_GROUNDPLANE = "Ground Plane";
     const string TITLE_MIDAIR = "Mid-Air";
 
@@ -110,7 +110,7 @@ public class GroundPlaneUI : MonoBehaviour
             if (PlaneManager.planeMode == PlaneManager.PlaneMode.GROUND ||
                 PlaneManager.planeMode == PlaneManager.PlaneMode.PLACEMENT)
             {
-                m_Instructions.text = "Point device towards ground";
+                m_Instructions.text = "Richt apparaat naar de grond";
             }
             else if (PlaneManager.planeMode == PlaneManager.PlaneMode.MIDAIR)
             {
