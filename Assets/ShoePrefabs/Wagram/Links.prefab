@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 23811001710710600}
   m_Layer: 0
   m_Name: Object035
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 23025195082290256}
   m_Layer: 0
   m_Name: Line003
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 23207493045976434}
   m_Layer: 0
   m_Name: Object032
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 23582879249886380}
   m_Layer: 0
   m_Name: Object033
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 23720116326058726}
   m_Layer: 0
   m_Name: Object031
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 23797853949975040}
   m_Layer: 0
   m_Name: Rectangle006
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 23646515072295304}
   m_Layer: 0
   m_Name: Object034
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 23473849876461724}
   m_Layer: 0
   m_Name: Object036
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

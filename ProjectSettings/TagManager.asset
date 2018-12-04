@@ -8,6 +8,7 @@ TagManager:
   - TargetLeft
   - TargetRight
   - ShoeManager
+  - ColourChange
   - Floor
   - PlaneManager
   layers:

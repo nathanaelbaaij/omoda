@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 23775613873187432}
   m_Layer: 0
   m_Name: Sneakers_rConv_converse1
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 23432335991078824}
   m_Layer: 0
   m_Name: lConv_Sneakers_laces
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -583,7 +583,7 @@ GameObject:
   - component: {fileID: 23360077499024256}
   m_Layer: 0
   m_Name: Sneakers_rConv_laces1
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -617,7 +617,7 @@ GameObject:
   - component: {fileID: 23562178444188378}
   m_Layer: 0
   m_Name: lConv_Sneakers_converse
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
