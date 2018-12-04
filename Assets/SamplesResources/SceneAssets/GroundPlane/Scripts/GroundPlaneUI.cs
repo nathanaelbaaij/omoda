@@ -89,12 +89,12 @@ public class GroundPlaneUI : MonoBehaviour
             else if (PlaneManager.planeMode == PlaneManager.PlaneMode.PLACEMENT)
             {
                 m_Instructions.text = (m_ProductPlacement.IsPlaced) ?
-                    "• Touch and drag to move Chair" +
-                    "\n• Two fingers to rotate" +
-                    ((m_TouchHandler.enablePinchScaling) ? " or pinch to scale" : "") +
-                    "\n• Double-tap to reset Anchor location"
+                    "• Tap en sleep om schoenen te verplaatsen" +
+                    "\n• Gebruik twee vingers om te roteren" +
+                    ((m_TouchHandler.enablePinchScaling) ? " of knijp om te schalen" : "") +
+                    "\n• Double-tap om locatie te resetten"
                     :
-                    "Tap to place Chair";
+                    "Tap om schoenen te plaatsen";
             }
         }
         else
