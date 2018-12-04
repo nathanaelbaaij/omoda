@@ -36,8 +36,8 @@ public class TouchHandler : MonoBehaviour
 
 
     #region PRIVATE_MEMBERS
-    const float scaleRangeMin = 0.1f;
-    const float scaleRangeMax = 2.0f;
+    const float scaleRangeMin = 0.001f;
+    const float scaleRangeMax = 10.0f;
 
     Touch[] touches;
     static int lastTouchCount;

@@ -11,10 +11,12 @@ public class ShoeMenu : MonoBehaviour
     public Renderer[] shoeLChildren;
     public Renderer[] shoeRChildren;
 
+    private ProductPlacement shoeScript;
+
     // Use this for initialization
     void Start()
     {
-        DontDestroyOnLoad(gameObject); // Do not destroy the ShoeManager on load
+        DontDestroyOnLoad(gameObject); // Do not destroy the ShoeManager on load        
     }
 
     void OnEnable()
@@ -43,7 +45,7 @@ public class ShoeMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     public void SelectShoe(ShoeHolder shoes)
@@ -58,9 +60,20 @@ public class ShoeMenu : MonoBehaviour
     // Place the shoe on correct position for groundplane tracking
     void PlaceShoeGroundPlane()
     {
+        // Find objects used to correctly place the shoe
+        GameObject planemanager = GameObject.FindGameObjectWithTag("PlaneManager");
         GameObject target = GameObject.FindGameObjectWithTag("GroundPlaneTarget");
 
+        // Instantiate the shoe
         GameObject placedShoe = Instantiate(shoeGroundTracking, target.transform);
+
+        // Set planemanager script target to placed object
+        planemanager.GetComponent<PlaneManager>().m_PlacementAugmentation = placedShoe;
+        planemanager.GetComponent<PlaneManager>().m_PlaneAugmentation = placedShoe;
+
+        // Set floor in script on shoe
+        GameObject floor = GameObject.FindGameObjectWithTag("Floor");
+        placedShoe.GetComponent<ProductPlacement>().Floor = floor.transform;
     }
 
     void PlaceLeftRightShoes()
