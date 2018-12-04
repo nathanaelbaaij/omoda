@@ -2198,7 +2198,7 @@ GameObject:
   - component: {fileID: 4326776155423364}
   m_Layer: 0
   m_Name: VansPrefab
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

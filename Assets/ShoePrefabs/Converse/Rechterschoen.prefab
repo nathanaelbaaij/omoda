@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 23035273216356864}
   m_Layer: 0
   m_Name: Sneakers_rConv_laces1
-  m_TagString: Untagged
+  m_TagString: ColourChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
