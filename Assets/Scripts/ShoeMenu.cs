@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class ShoeMenu : MonoBehaviour
 {
-    public GameObject shoeGroundTracking;
-    public GameObject shoeLeft;
-    public GameObject shoeRight;
+    [SerializeField] private string shoeName;
+    private string shoePrice;
+    private string shoeType;
+    private string shoeColour;
+    private int[] shoeSize;
+
+    private GameObject shoeGroundTracking;
+    private GameObject shoeLeft;
+    private GameObject shoeRight;
     public Renderer[] shoeLChildren;
     public Renderer[] shoeRChildren;
 
@@ -45,7 +51,7 @@ public class ShoeMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void SelectShoe(ShoeHolder shoes)
@@ -53,6 +59,13 @@ public class ShoeMenu : MonoBehaviour
         shoeGroundTracking = shoes.shoeGroundTracking;
         shoeLeft = shoes.shoeLeft;
         shoeRight = shoes.shoeRight;
+
+        // Shoe productinfo
+        shoeName = shoes.shoeName;
+        shoePrice = shoes.shoePrice;
+        shoeType = shoes.shoetype;
+        shoeColour = shoes.shoeColour;
+        shoeSize = shoes.shoeSize;
 
         SceneManager.LoadScene("1-Menu");
     }
@@ -87,18 +100,42 @@ public class ShoeMenu : MonoBehaviour
         shoeLChildren = placedShoeLeft.GetComponentsInChildren<Renderer>();
         shoeRChildren = placedShoeRight.GetComponentsInChildren<Renderer>();
 
-        //ChangeColour();
+        SetProductInfo();
     }
 
-    public void ChangeColour(Color color) {
-        foreach(Renderer child in shoeLChildren) {
-            if(child.tag == "ColourChange") {
+    public void SetProductInfo()
+    {
+        ProductInformation productInfo = GameObject.FindGameObjectWithTag("ProductInfo").GetComponent<ProductInformation>();
+
+        productInfo.shoeName.text = shoeName;
+        productInfo.shoePrice.text = "€ " + shoePrice;
+        productInfo.shoeType.text = shoeType;
+        productInfo.shoeColour.text = "KLEUR: " + shoeColour.ToUpper();
+
+        // Add all sizes to dropdown
+        List<string> sizeList = new List<string>();
+        foreach (var size in shoeSize)
+        {
+            sizeList.Add(size.ToString()); // Or whatever you want for a label
+        }
+
+        productInfo.shoeSize.AddOptions(sizeList);
+    }
+
+    public void ChangeColour(Color color)
+    {
+        foreach (Renderer child in shoeLChildren)
+        {
+            if (child.tag == "ColourChange")
+            {
                 child.material.color = color;
             }
         }
 
-        foreach(Renderer child in shoeRChildren) {
-            if(child.tag == "ColourChange") {
+        foreach (Renderer child in shoeRChildren)
+        {
+            if (child.tag == "ColourChange")
+            {
                 child.material.color = color;
             }
         }

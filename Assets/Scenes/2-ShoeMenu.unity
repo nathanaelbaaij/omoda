@@ -146,10 +146,10 @@ RectTransform:
   m_Father: {fileID: 1675289290}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 152.49998, y: -302.5}
+  m_SizeDelta: {x: 175, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372919167
 MonoBehaviour:
@@ -252,6 +252,11 @@ MonoBehaviour:
     type: 2}
   shoeLeft: {fileID: 1108907665458214, guid: 31815da351aa97447a90f058a5068da9, type: 2}
   shoeRight: {fileID: 1441960834873018, guid: 2adcaf98fb296a840b550c94d3212312, type: 2}
+  shoeName: Wagram
+  shoePrice: 149,95
+  shoetype: Enkellaarsjes
+  shoeColour: Zwart
+  shoeSize: 240000002500000026000000270000002800000029000000
 --- !u!1 &417442907
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,10 +289,10 @@ RectTransform:
   m_Father: {fileID: 1675289290}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 347.5, y: -302.5}
+  m_SizeDelta: {x: 175, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &417442909
 MonoBehaviour:
@@ -509,10 +514,10 @@ RectTransform:
   m_Father: {fileID: 675077595}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 249.99998, y: -498.5}
+  m_SizeDelta: {x: 499.99997, y: 603}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &665273589
 MonoBehaviour:
@@ -790,10 +795,10 @@ RectTransform:
   m_Father: {fileID: 1675289290}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 152.49998, y: -107.5}
+  m_SizeDelta: {x: 175, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &738063136
 MonoBehaviour:
@@ -896,6 +901,11 @@ MonoBehaviour:
     type: 2}
   shoeLeft: {fileID: 1683070137572866, guid: 7e31b58fd36bf524bb2d74d44db64414, type: 2}
   shoeRight: {fileID: 1813810878067546, guid: bbd848add1de63b489fcb7a7a72fa0d3, type: 2}
+  shoeName: Converse
+  shoePrice: 59,55
+  shoetype: Sneakers
+  shoeColour: Blauw
+  shoeSize: 28000000290000002a0000002b0000002c0000002d000000
 --- !u!1 &1199913582
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,9 +933,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c81a5ca37e44fd8429545779940aca5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shoeGroundTracking: {fileID: 0}
-  shoeLeft: {fileID: 0}
-  shoeRight: {fileID: 0}
+  shoeName: 
+  shoeLChildren: []
+  shoeRChildren: []
 --- !u!4 &1199913584
 Transform:
   m_ObjectHideFlags: 0
@@ -1111,10 +1121,10 @@ RectTransform:
   m_Father: {fileID: 675077595}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 249.99998, y: -98}
+  m_SizeDelta: {x: 499.99997, y: 196}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298618817
 MonoBehaviour:
@@ -1503,10 +1513,10 @@ RectTransform:
   m_Father: {fileID: 1675289290}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 347.5, y: -107.5}
+  m_SizeDelta: {x: 175, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1624974410
 MonoBehaviour:
@@ -1609,6 +1619,11 @@ MonoBehaviour:
     type: 2}
   shoeLeft: {fileID: 1854582026146054, guid: 6c179f64d875b524097358d02f8bcf04, type: 2}
   shoeRight: {fileID: 1581409593636308, guid: 88dbc5e1700107b498772ebce320bb72, type: 2}
+  shoeName: Vans
+  shoePrice: 49,95
+  shoetype: Sneakers
+  shoeColour: Blauw
+  shoeSize: 290000002a0000002b0000002c0000002d0000002e000000
 --- !u!1 &1675289289
 GameObject:
   m_ObjectHideFlags: 0
@@ -1646,9 +1661,9 @@ RectTransform:
   m_Father: {fileID: 665273588}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 249.99998, y: -230}
   m_SizeDelta: {x: 499.99997, y: 460}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1675289291

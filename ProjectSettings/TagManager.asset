@@ -11,6 +11,7 @@ TagManager:
   - ColourChange
   - Floor
   - PlaneManager
+  - ProductInfo
   layers:
   - Default
   - TransparentFX
