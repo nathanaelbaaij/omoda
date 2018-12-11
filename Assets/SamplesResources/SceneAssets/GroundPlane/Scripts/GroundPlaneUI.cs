@@ -92,9 +92,8 @@ public class GroundPlaneUI : MonoBehaviour
                     "• Tap en sleep om schoenen te verplaatsen" +
                     "\n• Gebruik twee vingers om te roteren" +
                     ((m_TouchHandler.enablePinchScaling) ? " of knijp om te schalen" : "") +
-                    "\n• Double-tap om locatie te resetten"
-                    :
-                    "Tap om schoenen te plaatsen";
+                    "\n• Tik op het scherm om de schoenen ergens \n" +
+                    "anders neer te zetten" : "Tap om schoenen te plaatsen";
             }
         }
         else
