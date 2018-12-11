@@ -9,7 +9,7 @@ public class ProductInformation : MonoBehaviour {
     public Text shoePrice;
     public Text shoeType;
     public Text shoeColour;
-    public Dropdown shoeSize;
+    public Text shoeSize;
 
     // Use this for initialization
     void Start () {

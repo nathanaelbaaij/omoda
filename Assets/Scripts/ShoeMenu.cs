@@ -112,14 +112,11 @@ public class ShoeMenu : MonoBehaviour
         productInfo.shoeType.text = shoeType;
         productInfo.shoeColour.text = "KLEUR: " + shoeColour.ToUpper();
 
-        // Add all sizes to dropdown
-        List<string> sizeList = new List<string>();
+        productInfo.shoeSize.text = ""; // Remove template text
         foreach (var size in shoeSize)
         {
-            sizeList.Add(size.ToString()); // Or whatever you want for a label
+            productInfo.shoeSize.text += size + "\n";
         }
-
-        productInfo.shoeSize.AddOptions(sizeList);
     }
 
     public void ChangeColour(Color color)
