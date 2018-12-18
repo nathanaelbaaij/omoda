@@ -16,6 +16,7 @@ public class ShoeMenu : MonoBehaviour
     private GameObject shoeRight;
     public Renderer[] shoeLChildren;
     public Renderer[] shoeRChildren;
+    public Renderer[] shoeGroundChildren;
 
     private ProductPlacement shoeScript;
 
@@ -87,6 +88,8 @@ public class ShoeMenu : MonoBehaviour
         // Set floor in script on shoe
         GameObject floor = GameObject.FindGameObjectWithTag("Floor");
         placedShoe.GetComponent<ProductPlacement>().Floor = floor.transform;
+
+        shoeGroundChildren = placedShoe.GetComponentsInChildren<Renderer>();
     }
 
     void PlaceLeftRightShoes()
