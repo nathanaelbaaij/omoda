@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 115967359}
   - component: {fileID: 115967358}
   m_Layer: 5
-  m_Name: ColourLightBlue
+  m_Name: Light Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1735,7 +1735,7 @@ GameObject:
   - component: {fileID: 393958908}
   - component: {fileID: 393958907}
   m_Layer: 5
-  m_Name: ColourGray
+  m_Name: Gray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1870,7 +1870,7 @@ GameObject:
   - component: {fileID: 448598811}
   - component: {fileID: 448598810}
   m_Layer: 5
-  m_Name: ColourWhite
+  m_Name: White
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3626,7 +3626,7 @@ GameObject:
   - component: {fileID: 1132815150}
   - component: {fileID: 1132815149}
   m_Layer: 5
-  m_Name: ColourBlack
+  m_Name: Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3761,7 +3761,7 @@ GameObject:
   - component: {fileID: 1146519182}
   - component: {fileID: 1146519181}
   m_Layer: 5
-  m_Name: ColourBlue
+  m_Name: Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4000,7 +4000,7 @@ GameObject:
   - component: {fileID: 1270469737}
   - component: {fileID: 1270469736}
   m_Layer: 5
-  m_Name: ColourBrown
+  m_Name: Brown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6176,8 +6176,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24.600006, y: 59.200012}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0, y: 59.200012}
+  m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1887113699
 MonoBehaviour:
