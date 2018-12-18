@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PanelOpen : MonoBehaviour {
+public class PanelOpen : MonoBehaviour
+{
 
-    public GameObject Panel; 
+    public GameObject Panel;
 
     public void OpenPanel()
     {
-        if(Panel != null)
+        if (Panel != null)
         {
             bool isActive = Panel.activeSelf;
 
