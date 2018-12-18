@@ -10,12 +10,14 @@ public class ShoeMenu : MonoBehaviour
     private string shoeType;
     private string shoeColour;
     private int[] shoeSize;
+    private string activeMode;
 
     private GameObject shoeGroundTracking;
     private GameObject shoeLeft;
     private GameObject shoeRight;
     public Renderer[] shoeLChildren;
     public Renderer[] shoeRChildren;
+    public Renderer[] shoeGroundChildren;
 
     private ProductPlacement shoeScript;
 
@@ -39,11 +41,13 @@ public class ShoeMenu : MonoBehaviour
     {
         if (scene.name == "3-GroundPlane")
         {
+            activeMode = "Ground";
             PlaceShoeGroundPlane();
         }
 
         if (scene.name == "ImageTracking")
         {
+            activeMode = "Logo";
             PlaceLeftRightShoes();
         }
     }
@@ -87,6 +91,8 @@ public class ShoeMenu : MonoBehaviour
         // Set floor in script on shoe
         GameObject floor = GameObject.FindGameObjectWithTag("Floor");
         placedShoe.GetComponent<ProductPlacement>().Floor = floor.transform;
+
+        shoeGroundChildren = placedShoe.GetComponentsInChildren<Renderer>();
     }
 
     void PlaceLeftRightShoes()
@@ -121,21 +127,35 @@ public class ShoeMenu : MonoBehaviour
 
     public void ChangeColour(Color color)
     {
-        foreach (Renderer child in shoeLChildren)
+        if(activeMode == "Logo") 
         {
-            if (child.tag == "ColourChange")
+            foreach (Renderer child in shoeLChildren)
             {
-                child.material.color = color;
+                if (child.tag == "ColourChange")
+                {
+                    child.material.color = color;
+                }
+            }
+
+            foreach (Renderer child in shoeRChildren)
+            {
+                if (child.tag == "ColourChange")
+                {
+                    child.material.color = color;
+                }
             }
         }
 
-        foreach (Renderer child in shoeRChildren)
+        if(activeMode == "Ground") 
         {
-            if (child.tag == "ColourChange")
+            foreach (Renderer child in shoeGroundChildren) 
             {
-                child.material.color = color;
+                if(child.tag == "ColourChange") 
+                {
+                    child.material.color = color;
+                }
             }
-        }
+        }      
     }
 
     public void BackButton()
