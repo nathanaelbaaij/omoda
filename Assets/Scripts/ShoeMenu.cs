@@ -139,6 +139,14 @@ public class ShoeMenu : MonoBehaviour
                 child.material.color = color;
             }
         }
+
+        foreach (Renderer child in shoeGroundChildren) 
+        {
+            if(child.tag == "ColourChange") 
+            {
+                child.material.color = color;
+            }
+        }
     }
 
     public void BackButton()
