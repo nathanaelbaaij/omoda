@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 417442911}
   - component: {fileID: 417442910}
   - component: {fileID: 417442909}
+  - component: {fileID: 417442912}
   m_Layer: 5
   m_Name: Schoen4
   m_TagString: Untagged
@@ -334,12 +335,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1199913583}
-        m_MethodName: 
-        m_Mode: 1
+        m_MethodName: SelectShoe
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1004351405508280, guid: aee693ef3b307974c913f82d1043cb48,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 417442912}
+          m_ObjectArgumentAssemblyTypeName: ShoeHolder, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -366,7 +366,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 02d8ef3cac639604eb2ec9ce42545683, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 51325cbff550cfe43ad572c939f572eb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -381,6 +381,26 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 417442907}
   m_CullTransparentMesh: 0
+--- !u!114 &417442912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 417442907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564bf0dd39736ff44bbc0e014c37418d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shoeGroundTracking: {fileID: 1398456436545162, guid: 590f3a4b08a32a54c8eeda6ff2911034,
+    type: 2}
+  shoeLeft: {fileID: 1764246811524788, guid: 144cadf3666b1cb46817bb76dfdd621f, type: 2}
+  shoeRight: {fileID: 1894332513546154, guid: da1d5c01de5bddd458d53702288a7037, type: 2}
+  shoeName: Rred Velvet
+  shoePrice: 89,95
+  shoetype: Hakje
+  shoeColour: Rood
+  shoeSize: 
 --- !u!1 &482655934
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,7 +537,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 249.99998, y: -470.5}
+  m_AnchoredPosition: {x: 249.71964, y: -470.5}
   m_SizeDelta: {x: 500, y: 659}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &665273589
@@ -1194,8 +1214,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 249.99998, y: -70}
-  m_SizeDelta: {x: 499.99997, y: 140}
+  m_AnchoredPosition: {x: 249.71964, y: -70}
+  m_SizeDelta: {x: 499.43927, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298618817
 MonoBehaviour:
@@ -1543,7 +1563,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '?'
+  m_Text: RED VELVET
 --- !u!222 &1511469159
 CanvasRenderer:
   m_ObjectHideFlags: 0
