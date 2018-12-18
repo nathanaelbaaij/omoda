@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: 4049a0c7635df1d468293f7e2ed94468
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: scarpa_esterno
+    100002: scarpa_esterno01
+    100004: scarpa_interno
+    100006: scarpa_interno01
+    100008: suola
+    100010: suola01
+    100012: suola_esterna
+    100014: suola_esterna01
+    100016: suola_interna
+    100018: suola_interna01
+    100020: //RootNode
+    400000: scarpa_esterno
+    400002: scarpa_esterno01
+    400004: scarpa_interno
+    400006: scarpa_interno01
+    400008: suola
+    400010: suola01
+    400012: suola_esterna
+    400014: suola_esterna01
+    400016: suola_interna
+    400018: suola_interna01
+    400020: //RootNode
+    2100000: scarpa_esternoMat
+    2100002: scarpa_esterno01Mat
+    2100004: scarpa_internoMat
+    2100006: scarpa_interno01Mat
+    2100008: suolaMat
+    2100010: suola01Mat
+    2100012: suola_esternaMat
+    2100014: suola_esterna01Mat
+    2100016: suola_internaMat
+    2100018: suola_interna01Mat
+    2300000: scarpa_esterno
+    2300002: scarpa_esterno01
+    2300004: scarpa_interno
+    2300006: scarpa_interno01
+    2300008: suola
+    2300010: suola01
+    2300012: suola_esterna
+    2300014: suola_esterna01
+    2300016: suola_interna
+    2300018: suola_interna01
+    3300000: scarpa_esterno
+    3300002: scarpa_esterno01
+    3300004: scarpa_interno
+    3300006: scarpa_interno01
+    3300008: suola
+    3300010: suola01
+    3300012: suola_esterna
+    3300014: suola_esterna01
+    3300016: suola_interna
+    3300018: suola_interna01
+    4300000: scarpa_esterno
+    4300002: scarpa_esterno01
+    4300004: scarpa_interno
+    4300006: scarpa_interno01
+    4300008: suola
+    4300010: suola01
+    4300012: suola_esterna
+    4300014: suola_esterna01
+    4300016: suola_interna
+    4300018: suola_interna01
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
