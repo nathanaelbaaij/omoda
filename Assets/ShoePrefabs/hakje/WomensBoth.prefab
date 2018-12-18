@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_TranslationIndicator: {fileID: 1101864632382800}
   m_RotationIndicator: {fileID: 1723838218537148}
   Floor: {fileID: 0}
-  ProductSize: 0.65
+  ProductSize: 0.001
   shadowRenderer: {fileID: 23347242140153898}
 --- !u!114 &114594712189442236
 MonoBehaviour:
