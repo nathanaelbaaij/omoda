@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 64497139}
   - component: {fileID: 64497138}
   m_Layer: 5
-  m_Name: Gray
+  m_Name: Grijs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1057,7 +1057,7 @@ GameObject:
   - component: {fileID: 282840148}
   - component: {fileID: 282840147}
   m_Layer: 5
-  m_Name: White
+  m_Name: Wit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2882,12 +2882,12 @@ Prefab:
     - target: {fileID: 224024999084196168, guid: 356d9770fafda4666a5b89318a156f6f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 162.12045
       objectReference: {fileID: 0}
     - target: {fileID: 224024999084196168, guid: 356d9770fafda4666a5b89318a156f6f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 34.41236
       objectReference: {fileID: 0}
     - target: {fileID: 114683823855548470, guid: 356d9770fafda4666a5b89318a156f6f,
         type: 2}
@@ -3459,7 +3459,7 @@ GameObject:
   - component: {fileID: 1581803458}
   - component: {fileID: 1581803461}
   m_Layer: 5
-  m_Name: Black
+  m_Name: Zwart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3842,7 +3842,7 @@ GameObject:
   - component: {fileID: 1763526552}
   - component: {fileID: 1763526551}
   m_Layer: 5
-  m_Name: Brown
+  m_Name: Bruin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4343,7 +4343,7 @@ GameObject:
   - component: {fileID: 1896775167}
   - component: {fileID: 1896775166}
   m_Layer: 5
-  m_Name: Light Red
+  m_Name: Rood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4829,7 +4829,7 @@ GameObject:
   - component: {fileID: 2019384483}
   - component: {fileID: 2019384482}
   m_Layer: 5
-  m_Name: Blue
+  m_Name: Blauw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
