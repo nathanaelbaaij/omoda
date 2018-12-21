@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.3587269, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -425,8 +425,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 117.47136, y: -16.328896}
-  m_SizeDelta: {x: 214.94272, y: 22.657791}
+  m_AnchoredPosition: {x: 117.06068, y: -16.088432}
+  m_SizeDelta: {x: 214.12135, y: 22.176865}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &123777250
 MonoBehaviour:
@@ -2633,7 +2633,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Uitleg ground-tracking
+  m_Text: Uitleg Ground-tracking
 --- !u!222 &719081202
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2972,12 +2972,12 @@ Prefab:
     - target: {fileID: 224024999084196168, guid: 356d9770fafda4666a5b89318a156f6f,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 158.60446
+      value: 158.29686
       objectReference: {fileID: 0}
     - target: {fileID: 224024999084196168, guid: 356d9770fafda4666a5b89318a156f6f,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 34.29286
+      value: 34.41236
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 356d9770fafda4666a5b89318a156f6f, type: 2}
@@ -3246,13 +3246,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.4
-  m_Text: "In deze modus kunnen schoenen op een vlakke grond geplaatst worden.\n\n\u2022
-    Richt hierbij uw apparaat richting een vlakke grond en wacht tot er een vlakte
-    is gevonden. \n\u2022 Tik vervolgens op het scherm om de gekozen schoen op de
-    grond te plaatsen.\n\u2022 De schoen kan verplaatst worden door erop te tikken
-    en te slepen\n\u2022 Gebruik twee vingers om de schoen te roteren\n\u2022 Knijp
-    met twee vingers om de schoen groter of kleiner te maken\n\u2022 Tik op een andere
-    locatie om de schoen te verplaatsen"
+  m_Text: "In deze modus kunnen schoenen op een vlakte geplaatst worden zoals op een
+    tafel of de grond.\n\n\u2022 Richt hierbij uw apparaat richting een vlakke grond
+    en wacht tot er een vlakte is gevonden. \n\u2022 Tik vervolgens op het scherm
+    om de gekozen schoen op de grond te plaatsen.\n\u2022 De schoen kan verplaatst
+    worden door erop te tikken en te slepen\n\u2022 Gebruik twee vingers om de schoen
+    te roteren\n\u2022 Knijp met twee vingers om de schoen groter of kleiner te maken\n\u2022
+    Tik op een andere locatie om de schoen te verplaatsen"
 --- !u!222 &989211693
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4276,8 +4276,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 63.582584, y: -16.32889}
-  m_SizeDelta: {x: 107.16517, y: 22.65778}
+  m_AnchoredPosition: {x: 63.53034, y: -16.088428}
+  m_SizeDelta: {x: 107.06068, y: 22.176857}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1335426298
 MonoBehaviour:
@@ -4777,7 +4777,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -90}
-  m_SizeDelta: {x: 127.16517, y: 32.65778}
+  m_SizeDelta: {x: 127.06068, y: 32.176857}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1424226281
 MonoBehaviour:
@@ -6030,7 +6030,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0.3}
   m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: 234.94272, y: -202.49323}
+  m_SizeDelta: {x: 234.12135, y: -215.59215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1768737676
 MonoBehaviour:
@@ -6151,7 +6151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 0.98039216}
+  m_Color: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 0.98039216}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
